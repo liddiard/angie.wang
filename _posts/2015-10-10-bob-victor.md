@@ -6,6 +6,7 @@ link: http://undocumented.dailybruin.com/chapter2/the-human-cost/
 photo:
     filename: bob_victor_gun.jpg
     caption: (Angie Wang / Daily Bruin)
+    large: true
 ---
 
 Victor Barragan chased down “the bad guys” on the cold, hard living room floors in his home, pretending to be a cop. At the age of three, he knew he wanted to be a police officer, and almost 20 years later, he’s still working toward that goal.
