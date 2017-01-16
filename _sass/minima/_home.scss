@@ -1,0 +1,49 @@
+.home {
+  box-sizing: border-box;
+  padding: 0 1em;
+
+  .lead-description {
+    box-sizing: border-box;
+    margin: auto auto;
+    padding: 0 $spacing-unit $spacing-unit;
+    text-align: center;
+    max-width: $content-width;
+  }
+
+  .page-heading {
+    text-align: center;
+  }
+
+  .post-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      box-sizing: border-box;
+      padding: 1em;
+      flex-basis: 33%;
+
+      @include media-query($on-palm) {
+        flex-basis: 100%;
+      }
+
+      .post-link {
+        color: $text-color;
+
+        &:hover {
+          color: $brand-color;
+        }
+      }
+
+      .post-link:hover {
+        text-decoration: none // override link underline style on category tags
+      }
+    }
+
+    h2 {
+      line-height: 1.2;
+      margin: 0.5em 0;
+      font-size: 1em;
+    }
+  }
+}

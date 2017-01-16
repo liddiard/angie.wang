@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="home full-width">
+
+  <p class="lead-description">{{ site.description }}</p>
+
+  <h1 class="page-heading">Select articles, photography and videography</h1>
+  
+  {{ content }}
+
+  <ul class="post-list">
+    {% assign sorted_posts = site.posts | sort: 'order' | reverse %}
+    {% for post in sorted_posts %}
+      <li>
+        <a class="post-link" 
+           href="{% if post.redirect %}{{post.link}}{% else %}{{ post.url | relative_url }}{% endif %}"
+           {% if post.redirect %}target="_blank"{% endif %}>
+          {% if post.categories %}
+            <p class="post-categories">
+              {% for category in post.categories %}
+                <span class="post-category">{{ category }}</span>
+              {% endfor %}
+            </p>
+          {% endif %}
+          {% if post.video %}
+            <figure class="video">
+              <iframe width="560" height="349" src="http://www.youtube.com/embed/{{ post.video }}?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+            </figure>
+          {% endif %}
+          {% if post.photo %}
+            <img class="featured-photo" src="/image/{{post.photo.filename}}" />
+          {% endif %}
+          <h2>{{ post.title | escape }}</h2>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
