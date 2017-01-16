@@ -13,7 +13,7 @@ layout: default
   <ul class="post-list">
     {% assign sorted_posts = site.posts | sort: 'order' | reverse %}
     {% for post in sorted_posts %}
-      <li>
+      <li class="post {{ post.categories | join: ' ' }}">
         <a class="post-link" 
            href="{% if post.redirect %}{{post.link}}{% else %}{{ post.url | relative_url }}{% endif %}"
            {% if post.redirect %}target="_blank"{% endif %}>
@@ -37,5 +37,19 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+
+  <script>
+
+    // use URL hash to show only posts in a certain category
+    var category = window.location.hash.replace('#', '');
+    if (category) {
+      document
+      .querySelectorAll(`.post-list .post:not(.${category})`)
+      .forEach(post => {
+        post.parentNode.removeChild(post);
+      });
+    }
+
+  </script>
 
 </div>
