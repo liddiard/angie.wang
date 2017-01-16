@@ -1,7 +1,7 @@
 ---
 order: 9
 title:  Journalists Read Racist Comments
-categories: [videography]
+categories: [visual]
 link: https://www.youtube.com/watch?v=vW9XNqhFrNc
 video: vW9XNqhFrNc
 ---

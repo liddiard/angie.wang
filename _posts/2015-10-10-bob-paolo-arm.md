@@ -1,7 +1,7 @@
 ---
 order: 6
 title:  Paolo Arm
-categories: [photography]
+categories: [visual]
 photo:
     filename: bob_paolo_arm.jpg
     large: true

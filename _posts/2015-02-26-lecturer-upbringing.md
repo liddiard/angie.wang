@@ -1,7 +1,7 @@
 ---
 order: 10
 title:  Lecturer’s educational enthusiasm stems from upbringing in war zone
-categories: [article, photography]
+categories: [written, visual]
 link: https://dailybruin.com/2015/02/26/lecturers-educational-enthusiasm-stems-from-upbringing-in-war-zone/
 photo:
     filename: lecturer_sitting.jpg

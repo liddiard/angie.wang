@@ -1,7 +1,7 @@
 ---
 order: 7
 title:  Paolo with Portrait
-categories: [photography]
+categories: [visual]
 photo:
     filename: bob_paolo_portrait.jpg
     large: true

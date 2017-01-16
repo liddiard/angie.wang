@@ -1,7 +1,7 @@
 ---
 order: 8
 title:  Continuing to fight off ‘the bad guys’ from every angle
-categories: [article, photography]
+categories: [written, visual]
 link: http://undocumented.dailybruin.com/chapter2/the-human-cost/
 photo:
     filename: bob_victor_gun.jpg

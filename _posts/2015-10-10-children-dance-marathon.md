@@ -1,7 +1,7 @@
 ---
 order: 4
 title:  Children at Dance Marathon
-categories: [photography]
+categories: [visual]
 photo:
     filename: children_dance_marathon.jpg
     large: true
