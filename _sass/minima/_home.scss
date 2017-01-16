@@ -21,7 +21,7 @@
     li {
       box-sizing: border-box;
       padding: 1em;
-      flex-basis: 33%;
+      //flex-basis: 33%;
 
       @include media-query($on-palm) {
         flex-basis: 100%;
