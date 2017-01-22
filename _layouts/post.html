@@ -15,12 +15,6 @@ layout: default
 
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
 
-    {% if page.link %}
-      <p class="post-external-link">
-        Source: <a href="{{ page.link }}" target="_blank">{{ page.link }}</a>
-      </p>
-    {% endif %}
-
     {% if page.photo %}
       {% unless page.video %}
         {% if page.photo.large %}
@@ -44,7 +38,20 @@ layout: default
         By {{ page.authors | join: ', ' }}
       </p>
     {% endif %}
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <p class="post-meta">
+      {% if page.link %}
+        <a href="{{ page.link }}" target="_blank">
+          Published <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+        </a>
+      {% else  %}
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% endif %}
+      {% if page.author %}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">{{ page.author }}</span>
+          </span>
+      {% endif %}
+    </p>
   </header>
 
   {% if page.video %}

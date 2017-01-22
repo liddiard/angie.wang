@@ -14,9 +14,9 @@
   font-size: 26px;
   font-weight: 300;
   line-height: 56px;
-  letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  font-weight: bold;
 
   &,
   &:visited {
@@ -209,7 +209,7 @@
   margin-bottom: $spacing-unit;
 }
 
-.post-categories, .post-external-link {
+.post-categories {
   font-weight: bold;
   text-transform: uppercase;
   font-size: $small-font-size;
@@ -221,16 +221,6 @@
     color: white;
     padding: 0.2em 0.4em;
     margin-right: 0.25em;
-  }
-}
-
-// not to be confused with .post-link, above
-.post-external-link {
-  color: $grey-color;
-
-  a {
-    text-transform: initial;
-    font-weight: normal;
   }
 }
 
