@@ -6,5 +6,5 @@ categories: [written]
 link: http://stack.dailybruin.com/2015/10/21/meal-plan-swipe-deduction/
 redirect: true
 photo:
-    filename: swipe_deduction_graph.png
+    filename: stack_swipes.png
 ---
