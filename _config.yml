@@ -40,3 +40,5 @@ defaults:
     values:
       layout: "post"
       authors: ["Angie Wang"]
+      photo:
+        thumbnail: true
