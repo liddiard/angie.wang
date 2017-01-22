@@ -22,20 +22,21 @@ layout: default
     {% endif %}
 
     {% if page.photo %}
-      {% if page.photo.large %}
-        <figure class="featured-photo">
-          <div class="full-screen image" 
-               style="background-image: url(/image/{{ page.photo.filename }})">
-          </div>
-          <figcaption>{{ page.photo.caption }}</figcaption>
-        </figure>
-      {% else %}
-        <figure class="featured-photo">
-          <img src="/image/{{ page.photo.filename }}" />
-          <figcaption>{{ page.photo.caption }}</figcaption>
-        </figure>
-      {% endif %}
-
+      {% unless page.video %}
+        {% if page.photo.large %}
+          <figure class="featured-photo">
+            <div class="full-screen image" 
+                style="background-image: url(/image/{{ page.photo.filename }})">
+            </div>
+            <figcaption>{{ page.photo.caption }}</figcaption>
+          </figure>
+        {% else %}
+          <figure class="featured-photo">
+            <img src="/image/{{ page.photo.filename }}" />
+            <figcaption>{{ page.photo.caption }}</figcaption>
+          </figure>
+        {% endif %}
+      {% endunless %}
     {% endif %}
 
     {% if page.authors %}
