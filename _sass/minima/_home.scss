@@ -6,7 +6,7 @@
     box-sizing: border-box;
     margin: auto auto;
     padding: 0 $spacing-unit $spacing-unit;
-    text-align: center;
+    text-align: left;
     max-width: $content-width;
   }
 
@@ -14,7 +14,7 @@
     height: 80px;
     float: left;
     border-radius: 50%;
-    margin-right: 1em;
+    margin-right: 1.7em;
     transition: transform 1s, box-shadow 1s;
     transition-delay: 1s;
 
