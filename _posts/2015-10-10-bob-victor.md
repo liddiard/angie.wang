@@ -9,6 +9,8 @@ photo:
     large: true
 ---
 
+*The following profile ran as part of "A Paper Trail," the ninth Daily Bruin reporting project funded by the [Bridget O'Brien Scholarship Foundation](http://rememberingbridget.com/). "A Paper Trail" aims to illustrate what it means to be an undocumented student in the United States – from California, where policies are relatively lenient, to Georgia, where students are subject to some of the nation's harshest higher education policies. Read more at [undocumented.dailybruin.com](http://undocumented.dailybruin.com/).*
+
 Victor Barragan chased down “the bad guys” on the cold, hard living room floors in his home, pretending to be a cop. At the age of three, he knew he wanted to be a police officer, and almost 20 years later, he’s still working toward that goal.
 
 On weekdays, Barragan works 13-hour shifts at a granite company, trying to save up for college. He comes home to research which institutions offer admissions and financial aid to undocumented students, searching for any opportunity to pursue an education in law enforcement.

@@ -5,7 +5,7 @@ categories: [written, visual]
 link: https://dailybruin.com/2015/02/26/lecturers-educational-enthusiasm-stems-from-upbringing-in-war-zone/
 photo:
     filename: lecturer_sitting.jpg
-    caption: Nushin Arbabzadah, a communication studies lecturer, worked for three years at BBC Monitoring before beginning her career at the university. (Angie Wang / Daily Bruin senior staff)
+    caption: Nushin Arbabzadah, a communication studies lecturer, worked for three years at BBC Monitoring before beginning her career at the university. (Angie Wang, Daily Bruin senior staff)
 ---
 
 Nushin Arbabzadah didn’t know she was looking at dead bodies the first time she saw them.

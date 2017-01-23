@@ -16,9 +16,7 @@
 title: Angie Wang
 email: angiewang@media.ucla.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Angie Wang is a journalist and photographer studying communications at UCLA.
-  She has worked as the news editor and as an assistant photo editor at her
-  university newspaper, the Daily Bruin. She was a 2016 AAJA Voices fellow.
+  Angie Wang is a multimedia journalist studying communication at UCLA. She has worked as news editor and assistant photo editor of the Daily Bruin, UCLA’s student-run newspaper. She was a 2016 AAJA Voices fellow and a 2012 Medill Cherub.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://angie.wang" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: angiezwang

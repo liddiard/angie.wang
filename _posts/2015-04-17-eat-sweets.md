@@ -5,7 +5,7 @@ categories: [written, visual]
 link: https://dailybruin.com/2015/04/17/eat-sweets-pastry-to-leave-westwood-search-for-new-location/
 photo:
     filename: eat_sweets.jpg
-    caption: Megan Driscoll, the owner of Eat Sweets Pastry, loves the freedom that comes with being a pastry chef of her own store located on Gayley Ave. She decorates the pastries and personalizes them, baking numerous cupcakes, cookies and macarons. (Angie Wang / Daily Bruin senior staff)
+    caption: Megan Driscoll, the owner of Eat Sweets Pastry, loves the freedom that comes with being a pastry chef of her own store located on Gayley Ave. She decorates the pastries and personalizes them, baking numerous cupcakes, cookies and macarons. (Angie Wang, Daily Bruin senior staff)
     large: true
 ---
 
