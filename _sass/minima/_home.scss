@@ -10,6 +10,20 @@
     max-width: $content-width;
   }
 
+  .mug {
+    height: 80px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 1em;
+    transition: transform 1s, box-shadow 1s;
+    transition-delay: 1s;
+
+    &:active {
+      transform: scale(3);
+      box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    }
+  }
+
   .page-heading {
     text-align: center;
   }
