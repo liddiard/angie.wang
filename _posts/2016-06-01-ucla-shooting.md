@@ -2,11 +2,11 @@
 order: 11
 title:  Two dead in murder-suicide on UCLA campus
 authors: ["Angie Wang", "Roberto Luna Jr."]
-categories: [written]
+categories: written
 link: http://dailybruin.com/2016/06/01/two-reported-dead-in-murder-suicide-on-ucla-campus/
 photo:
     filename: shooting_officer.jpg
-    caption: Los Angeles Police Department officers guarded the area surrounding the Engineering IV building following the end of the campuswide lockdown. (Jintak Han / Daily Bruin)
+    caption: Los Angeles Police Department officers guarded the area surrounding the Engineering IV building following the end of the campuswide lockdown. (Jintak Han, Daily Bruin)
 ---
 
 Two people died in a murder-suicide at UCLA’s Engineering IV building early Wednesday, police said.

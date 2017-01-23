@@ -1,7 +1,7 @@
 ---
 order: 3
 title:  Cori and Gloria
-categories: [visual]
+categories: visual
 photo:
     filename: children_dance_marathon.jpg
     large: true
