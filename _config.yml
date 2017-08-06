@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Angie Wang is an all-formats reporter studying at Columbia Journalism School. She interned with the Associated Press in Phoenix after graduating from UCLA with a degree in communication. At UCLA, she worked as the Daily Bruin's news editor and assistant photo editor. She was also a 2016 AAJA Voices fellow.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://angie.wang" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: angiezwang
+twitter_username: byangiewang
 instagram_username:  angiewang.jpg
 
 # Build settings
