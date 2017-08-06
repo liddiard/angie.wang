@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Angie Wang
-email: angiewang@media.ucla.edu
+email: azw2108@columbia.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Angie Wang is a multimedia journalist studying communication at UCLA. She has worked as news editor and assistant photo editor of the Daily Bruin, UCLA’s student-run newspaper. She was a 2016 AAJA Voices fellow and a 2012 Medill Cherub.
+  Angie Wang is an all-formats reporter studying at Columbia Journalism School. She interned with the Associated Press in Phoenix after graduating from UCLA with a degree in communication. At UCLA, she worked as the Daily Bruin's news editor and assistant photo editor. She was also a 2016 AAJA Voices fellow.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://angie.wang" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: angiezwang

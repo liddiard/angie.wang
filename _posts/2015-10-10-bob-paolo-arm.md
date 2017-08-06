@@ -1,7 +1,7 @@
 ---
 order: 6
 title:  Paolo’s first home
-categories: visual
+categories: photo
 photo:
     filename: bob_paolo_arm.jpg
     large: true

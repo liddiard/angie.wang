@@ -14,7 +14,7 @@ layout: default
   <ul class="post-list">
     {% assign sorted_posts = site.posts | sort: 'order' | reverse %}
     {% for post in sorted_posts %}
-      <li class="post {{ post.categories | join: ' ' }}">
+      <li class="post {{ post.categories | join: ' ' }}" data-order="{{ post.order }}">
         {% if post.categories %}
           <p class="post-categories">
             {% for category in post.categories %}

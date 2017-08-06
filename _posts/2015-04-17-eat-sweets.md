@@ -1,7 +1,7 @@
 ---
 order: 1
 title: Eat Sweets Pastry to leave Westwood, search for new location
-categories: written
+categories: story photo
 link: https://dailybruin.com/2015/04/17/eat-sweets-pastry-to-leave-westwood-search-for-new-location/
 photo:
     filename: eat_sweets.jpg

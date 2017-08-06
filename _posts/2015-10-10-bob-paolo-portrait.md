@@ -1,7 +1,7 @@
 ---
 order: 7
 title:  Paolo Jara-Riveros
-categories: visual
+categories: photo
 photo:
     filename: bob_paolo_portrait.jpg
     large: true
