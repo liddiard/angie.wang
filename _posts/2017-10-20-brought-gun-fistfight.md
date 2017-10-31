@@ -1,6 +1,6 @@
 ---
 order: 19
-title: He brought a gun to a fistfight
+title: ‘He brought a gun to a fistfight’
 authors:
     - Angie Wang
 categories:
